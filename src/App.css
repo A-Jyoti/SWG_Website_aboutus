@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 23px;
+  font-size: 23px;
+}
+
+
+.yearDropdown{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ gap: 17px;
+ margin: 43px 23px;
+}
+
+.yearDropdown label{
+  padding: 3px;
+  font-size: 20px;
+}
+
+
+.yearDropdown select{
+  padding: 3px;
+  font-size: 17.5px;
+  border: 1px solid;
+  border-radius: 13px;
+  background-color: #fff;
+}
+
+
+/* .yearButtons button{
+  padding: 10px 65px;
+  font-size: 24px;
+  border-radius: 18px;
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
+} */
+
+
+.tab{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ gap: 16rem;
+ margin: 71px 213px;
+}
+
+.tab button{
+    background-color: #fff;
+    box-sizing: initial;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    position: relative;
+    transition: .3s;
+    width: 50%;
+    display: flex;
+  justify-content: center;
+  border-color: #fff;
+  border-style: none;
+  font-size: 23px;
+
+}
+
+
+
+.info{
+  background-color: rgb(230, 79, 79);
+  -webkit-backdrop-filter: blur(3rem);
+    backdrop-filter: blur(3rem);
+    background: #fff;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    min-height: 75px;
+    width: 80%;
+    z-index: 10;
+
+
+}
+
